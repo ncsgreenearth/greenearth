@@ -1,0 +1,66 @@
+{{ partial "header.html" . }}
+<script src="{{ "js/siema.min.js" | absURL }}"></script>
+<section id="slider" class="siema">
+	{{ range .Params.slides }}
+	<figure class="image is-3by1">
+		<img src="{{(trim .image "/") | absURL }}">
+	</figure>
+	{{ end }}
+</section>
+<section class="section notification">
+	<div class="container is-fluid ">
+		<h1 class="title has-text-centered is-uppercase is-size-1">
+		About Us
+		</h1>
+		{{ partial "separator.html" . }}
+		{{ .Content }}
+		<div class="has-text-centered">
+			<a href="/about" class="button is-outlined is-link" style="margin-top: 20px;">
+			Read More </a>
+		</div>
+	</div>
+</section>
+<section class="section">
+	<div class="container is-fluid">
+		<h1 class="title has-text-centered is-uppercase is-size-1">
+		our products
+		</h1>
+		<div class="columns is-multiline" style="padding-top: 10px;">
+			{{ range .Site.Data.services.services }}
+			<div class="column is-one-third ">
+				<div class="card is-storyworld">
+					<div class="card-image">
+						<figure class="image is-4by3">
+							<img src="{{(trim .image "/") | absURL }}">
+						</figure>
+					</div>
+					<div>
+						<p class="notification is-size-5 has-text-black has-text-centered
+						is-uppercase has-text-weight-bold">{{ .name }}</p>
+					</div>
+					<div class="card-content">
+						<p class=" is-size-6 has-text-black">{{ .content }}</p>
+					</div>
+					<div class=" section has-text-centered">
+						<a href="{{ .link }}" class="button is-link is-outlined">Read More</a>
+					</div>
+				</div>
+			</div>
+			{{ end }}
+		</div>
+	</div>
+</section>
+{{ partial "footer.html" . }}
+<script>
+if(siema_interval){
+clearInterval(siema_interval)
+}
+var mySiema=new Siema({duration:250,loop:true,});
+var siema_interval = setInterval(()=>mySiema.next(),5000)
+document.addEventListener('DOMContentLoaded', function () {
+var simple = document.querySelector('.js_simple');
+lory(simple, {
+rewind: true
+});
+});
+</script>

@@ -1,0 +1,31 @@
+{{ partial "header.html" . }}
+<section class="hero is-primary">
+	<div class="hero-body">
+		<div class="container">
+			{{ partial "page_title.html" . }}
+		</div>
+	</div>
+</section>
+<section class="section">
+  <div class="container">
+    <!-- <h1 class="title is-spaced is-size-1">{{ .Title }}</h1> -->
+    {{ $section := where .Data.Pages "Section" .Section }}
+    <div class="columns is-multiline">
+      {{ range $section }}
+      <div class="column is-one-third">
+        <a href="{{.URL}}" class="is-block box" >
+          <div class="content">
+            <span class="square is-block">
+              <span class="content" style="background-image: url('{{(trim .Params.cover_image "/") | absURL}}')"></span>
+            </span>
+          </div>
+          <div class="subtitle">{{.Title}}</div>
+          <span class="button is-rounded is-danger is-outlined">View Pictures</span>
+        </a>        
+      </div>
+      {{end}}
+    </div>
+  </div>
+</section>
+
+{{ partial "footer.html" . }}

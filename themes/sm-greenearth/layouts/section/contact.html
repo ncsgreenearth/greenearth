@@ -1,0 +1,106 @@
+{{ partial "header.html" . }}
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOp_b26dWumYiB9Pc3EwrC-FEPP2CkgGk" data-turbolinks-eval="false"></script>
+<div class="flex items-stretch items-start flex-wrap flex-nowrap-l bg-white" style="">
+	<section class="hero is-info">
+		<div class="hero-body">
+			<div class="container">
+				{{ partial "page_title.html" . }}
+			</div>
+		</div>
+	</section>
+	<section class="hero">
+		<div class="columns">
+			<div class="column" data-aos="slide-right">
+				<section class="section">
+					<h2 class="has-text-info is-size-3">{{.Params.business_name}}</h2>
+					<div class="has-text-weight-bold">
+						{{ replace .Params.address "\n" "<br>" | safeHTML }}
+					</div>
+					<div>
+						<form name="contact" netlify>
+							<div class="field">
+								<label class="label">NAME</label>
+								<div class="control">
+									<input class="input is-medium is-info" name="name" id="name"
+									type="text" placeholder="Enter Your Name" required>
+								</div>
+							</div>
+							<div class="field">
+								<label class="label">EMAIL</label>
+								<div class="control ">
+									<input class="input is-medium is-info" name= "email" id="email"
+									type="email" placeholder="Enter Your Email" required>
+								</div>
+							</div>
+							<div class="field">
+								<label class="label">CONTACT NO</label>
+								<div class="control ">
+									<input class="input is-medium is-info" name="contact_no"
+									id="contact_no" type="text" placeholder="Enter Your Phone No." required>
+								</div>
+							</div>
+							<div class="field">
+								<label class="label">MESSAGE</label>
+								<div class="control ">
+									<textarea class="textarea is-info" name="message" id= "message" placeholder="Enter Your Message" required></textarea>
+								</div>
+							</div>
+							<div class="control">
+								<button class="button is-info is-outlined is-medium" type="submit">
+								Submit</button>
+							</div>
+						</form>
+					</div>
+				</section>
+			</div>
+			<div class="column" data-aos="slide-left">
+				<div class="map-slope" id="map-canvas" style="min-height: 700px;"></div>
+			</div>
+		</div>
+	</section>
+	<script>
+	function initialize() {
+	var gmc = {{.Params.google_map_coordinates}}
+	var myLatlng = new google.maps.LatLng(gmc.split(",")[0], gmc.split(",")[1]);
+	var mapOptions = {
+	center: myLatlng,
+	zoom: 18,
+	scrollwheel: false,
+	styles: [{
+	featureType: 'all',
+	stylers: [{
+	hue: '#dddddd'
+	},
+	{
+	saturation: 70
+	}
+	]
+	}, {
+	featureType: 'road.arterial',
+	elementType: 'geometry',
+	stylers: [{
+	hue: '#eeeeee'
+	},
+	{
+	saturation: 90
+	}
+	]
+	}, {
+	featureType: 'poi.business',
+	elementType: 'labels',
+	stylers: [{
+	visibility: 'off'
+	}]
+	}]
+	};
+	var map = new google.maps.Map(document.getElementById('map-canvas'),
+	mapOptions);
+	var marker = new google.maps.Marker({
+	position: myLatlng,
+	map: map
+	});
+	}
+	google.maps.event.addDomListener(window, 'load', initialize);
+	google.maps.event.addDomListener(window, 'page:load', initialize);
+	</script>
+	{{ partial "footer.html" . }}

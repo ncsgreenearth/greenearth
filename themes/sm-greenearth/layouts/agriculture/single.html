@@ -1,0 +1,45 @@
+{{ partial "header.html" . }}
+<!-- <section class="hero is-primary">
+  <div class="hero-body">
+    <div class="container">
+      {{ partial "page_title.html" . }}
+    </div>
+  </div>
+</section> -->
+<section class="">
+  <figure class="image is-3by1">
+    <img  class="" src="{{(trim .Params.featured_image "/") | absURL }}">
+  </figure>
+</section>
+{{ partial "agriculture-menu.html" . }}
+<div class="section">
+  <div class="container is-fluid">
+  <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+     <thead>
+    <tr>
+      <th class="has-text-centered has-text-weight-semibold">PRODUCT</th>
+      <th class="has-text-centered has-text-weight-semibold">ACTIVE INGREDIENTS</th>
+      <th class="has-text-centered has-text-weight-semibold">ACTION</th>
+      <th class="has-text-centered has-text-weight-semibold">DOWNLOADS</th>
+    </tr>
+  </thead>
+    {{ range .Params.plant_nutrition }}
+  <tbody>
+    <tr>
+      <td class="has-text-centered ">
+        <figure class="image is-96x96">
+          <img src="{{(trim .product "/") | absURL }}">
+        </figure>
+      </td>
+      <td class="has-text-centered">{{ .active_ingredients }}</td>
+      <td class="has-text-centered">{{ .action }}</td>
+      <td>
+        <a class="button is-link is-outlined" href="{{ (trim .profile_file "/" ) | absURL }}"> DOWNLOAD</a>
+      </td>
+    </tr>
+  </tbody>
+    {{end}}
+  </table>
+</div>
+</div>
+{{ partial "footer.html" . }}

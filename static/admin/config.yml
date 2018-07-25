@@ -1,0 +1,162 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+media_folder: "static/images"
+public_folder: "/images"
+collections:
+- label: "Products"
+  name: "products"
+  folder: "content/product"
+  create: true
+  fields:
+    - {label: Title, name: title, widget: string}
+    - {label: Seo Title, name: seo_title, widget: string, required: false}
+    - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+    - {label: Seo Description, name: seo_description, widget: text, required: false}
+    - {label: Featured Image, name: featured_image, widget: image}
+    - {label: Order, name: order, widget: number, required: false}
+    - {label: Content, name: body, widget: markdown}
+- label: "Pages"
+  name: "pages"
+  files:
+    - label: "Home Page"
+      name: "home"
+      file: "content/_index.md"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Seo Title, name: seo_title, widget: string, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+        - {label: Seo Description, name: seo_description, widget: text, required: false}
+        - label: Slides
+          name: slides
+          widget: list
+          fields:
+            - {label: Image, name: image, widget: image}
+            - {label: Title, name: title, widget: string}
+            - {label: Description, name: description, widget: text}
+            - {label: Link, name: link, widget: string}
+        - {label: Content, name: body, widget: markdown}
+    - label: "Product"
+      name: "product"
+      file: "content/product/_index.md"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Seo Title, name: seo_title, widget: string, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+        - {label: Seo Description, name: seo_description, widget: text, required: false}
+        - {label: Featured Image, name: featured_image, widget: image}
+        - {label: Content, name: body, widget: markdown}
+    - label: "About"
+      name: "about"
+      file: "content/about/_index.md"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Seo Title, name: seo_title, widget: string, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+        - {label: Seo Description, name: seo_description, widget: text, required: false}
+        - {label: Featured Image, name: featured_image, widget: image}
+        - {label: Content, name: body, widget: markdown}
+    - label: "Awards"
+      name: "awards"
+      file: "content/awards/_index.md"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Seo Title, name: seo_title, widget: string, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+        - {label: Seo Description, name: seo_description, widget: text, required: false}
+        - {label: Featured Image, name: featured_image, widget: image}
+        - {label: Content, name: body, widget: markdown}
+    - label: "EMI Calculator"
+      name: "emi_calculator"
+      file: "content/emi_calculator/_index.md"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Seo Title, name: seo_title, widget: string, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+        - {label: Seo Description, name: seo_description, widget: text, required: false}
+        - {label: Featured Image, name: featured_image, widget: image}
+        - {label: Content, name: body, widget: markdown}
+    - label: "Become a Partner"
+      name: "become_partner"
+      file: "content/become_partner/_index.md"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Seo Title, name: seo_title, widget: string, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+        - {label: Seo Description, name: seo_description, widget: text, required: false}
+        - {label: Featured Image, name: featured_image, widget: image}
+        - {label: Content, name: body, widget: markdown}
+    - label: "Contact Page"
+      name: "contact"
+      file: "content/contact/_index.md"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Seo Title, name: seo_title, widget: string, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+        - {label: Seo Description, name: seo_description, widget: text, required: false}
+        - {label: Google Map Coordinates, name: google_map_coordinates, widget: string}
+        - {label: Featured Image, name: featured_image, widget: image}
+        - {label: Business Name, name: business_name, widget: string}
+        - {label: Address, name: address, widget: text}
+        - {label: Telephone No, name: phone, widget: string}
+        - {label: Phone No, name: mobile, widget: string}
+        - {label: Email, name: email, widget: string}
+        - {label: Content, name: body, widget: markdown}
+    - label: "Enquiry Form"
+      name: "enquiry_form"
+      file: "content/enquiry_form/_index.md"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Seo Title, name: seo_title, widget: string, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+        - {label: Seo Description, name: seo_description, widget: text, required: false}
+        - {label: Featured Image, name: featured_image, widget: image}
+        - label: Loan Types
+          name: loan
+          widget: list
+          fields:
+            - {label: Name, name: name, widget: string}
+        - {label: Content, name: body, widget: markdown}
+- label: "Data"
+  name: "data"
+  files:
+    - label: "Associations"
+      name: "associations"
+      file: "data/associations.yml"
+      fields:
+        - label: Associations
+          name: associations
+          widget: list
+          fields:
+            - {label: Name, name: name, widget: string}
+            - {label: Image, name: image, widget: image}
+    - label: "Awards"
+      name: "awards"
+      file: "data/awards.yml"
+      fields:
+        - label: Awards
+          name: awards
+          widget: list
+          fields:
+            - {label: Name, name: name, widget: string}
+            - {label: Image, name: image, widget: image}
+    - label: "Testimonials"
+      name: "testimonials"
+      file: "data/testimonials.yml"
+      fields:
+        - label: Testimonials
+          name: testimonials
+          widget: list
+          fields:
+            - {label: Name, name: name, widget: string}
+            - {label: Company, name: company, widget: string}
+            - {label: Ddesignation, name: designation, widget: string}
+            - {label: Image, name: image, widget: image}
+            - {label: Testimonial, name: testimonial, widget: string}
+    - label: "Meta"
+      name: "meta"
+      file: "data/meta.yml"
+      fields:
+        - {label: Page Background, name: background_image, widget: image}
+        - {label: Logo, name: logo, widget: image}
+        - {label: FB Cover, name: fb_cover, widget: image}
