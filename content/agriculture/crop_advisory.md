@@ -17,7 +17,5 @@ details:
   - image: images/Cabbage.jpg
     name: Cabbage
     profile_file: images/Cabbage.pdf
-  - image: /images/bs-ar38pa.jpg
-    profile_file: /images/Bottle-Gourd.pdf
 ---
 
