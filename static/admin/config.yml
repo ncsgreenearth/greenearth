@@ -95,7 +95,7 @@ collections:
   files:
     - label: "Services"
       name: "services"
-      file: "data/awards.yml"
+      file: "data/services.yml"
       fields:
         - label: Services
           name: services
