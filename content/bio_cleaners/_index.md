@@ -1,8 +1,8 @@
 ---
 title: Bio-Cleaners
-seo_keywords: "Green Earth"
-seo_description: "Green Earth"
-creative_image: "images/DSOLVE.jpg"
+seo_keywords: Green Earth
+seo_description: Green Earth
+featured_image: /images/DSOLVE.jpg
 formulations:
   - name: Toilet & Bathroom Manager
   - name: Drain Manager
