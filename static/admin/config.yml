@@ -15,7 +15,7 @@ collections:
     - {label: Seo Description, name: seo_description, widget: text, required: false}
     - {label: Featured Image, name: featured_image, widget: image}
     - {label: Type, name: type, widget: text, required: false}
-    - {label: Content, name: body, widget: markdown, required: false}}
+    - {label: Content, name: body, widget: markdown, required: false}
     - label: Details
       name: details
       widget: list
