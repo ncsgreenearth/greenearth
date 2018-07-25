@@ -23,15 +23,15 @@
       <th class="has-text-centered has-text-weight-semibold">DOWNLOADS</th>
     </tr>
   </thead>
-    {{ range .Params.plant_nutrition }}
+    {{ range .Params.details }}
   <tbody>
     <tr>
       <td class="has-text-centered ">
         <figure class="image is-96x96">
-          <img src="{{(trim .product "/") | absURL }}">
+          <img src="{{(trim .image "/") | absURL }}">
         </figure>
       </td>
-      <td class="has-text-centered">{{ .active_ingredients }}</td>
+      <td class="has-text-centered">{{ .name }}</td>
       <td class="has-text-centered">{{ .action }}</td>
       <td>
         <a class="button is-link is-outlined" href="{{ (trim .profile_file "/" ) | absURL }}"> DOWNLOAD</a>

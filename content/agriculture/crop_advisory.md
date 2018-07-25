@@ -4,7 +4,7 @@ seo_keywords: Green Earth
 seo_description: Green Earth
 featured_image: images/crop_advisory.jpg
 type: "crop_advisory"
-crops:
+details:
   - name: >-
       Bitter Gourd
     image: images/Bitter-Gourd.jpg
