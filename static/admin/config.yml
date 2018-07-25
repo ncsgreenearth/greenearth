@@ -61,6 +61,21 @@ collections:
         - {label: Seo Description, name: seo_description, widget: text, required: false}
         - {label: Featured Image, name: featured_image, widget: image}
         - {label: Content, name: body, widget: markdown}
+    - label: "Bio Cleaners"
+      name: "bio cleaners"
+      file: "content/bio_cleaners/_index.md"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Seo Title, name: seo_title, widget: string, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+        - {label: Seo Description, name: seo_description, widget: text, required: false}
+        - {label: Featured Image, name: featured_image, widget: image}
+        - {label: Content, name: body, widget: markdown}
+        - label: Formulations
+          name: formulations
+          widget: list
+          fields:
+            - {label: Name, name: name, widget: text}
     - label: "Contact Page"
       name: "contact"
       file: "content/contact/_index.md"
