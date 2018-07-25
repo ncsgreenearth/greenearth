@@ -13,7 +13,7 @@ services:
     link: agriculture/pest_management
   - name: Pest Management
     image: images/pest_management.jpg
-    content:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nisi lacus, scelerisque id arcu quis, dapibus tristique nunc.
+    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nisi lacus, scelerisque id arcu quis, dapibus tristique nunc.
     link: agriculture/plant_nutrition
   - name: Bio-Cleaners
     image: images/DSOLVE.jpg
