@@ -20,10 +20,10 @@ collections:
       name: details
       widget: list
       fields:
-        - {label: Name, name: name, widget: string, required: false}}
-        - {label: Image, name: image, widget: image, required: false}}
-        - {label: Profile File, name: profile_file, widget: file, required: false}}
-        - {label: Action, name: action, widget: text, required: false}}
+        - {label: Name, name: name, widget: string, required: false}
+        - {label: Image, name: image, widget: image, required: false}
+        - {label: Profile File, name: profile_file, widget: file, required: false}
+        - {label: Action, name: action, widget: text, required: false}
 - label: "Pages"
   name: "pages"
   files:
@@ -40,9 +40,6 @@ collections:
           widget: list
           fields:
             - {label: Image, name: image, widget: image}
-            - {label: Title, name: title, widget: string}
-            - {label: Description, name: description, widget: text}
-            - {label: Link, name: link, widget: string}
         - {label: Content, name: body, widget: markdown}
     - label: "Agriculture"
       name: "agriculture"
