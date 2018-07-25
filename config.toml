@@ -1,4 +1,4 @@
-baseURL = "https://greenearth.netlify.com/"
+baseURL = "https://ncsgreenearth.netlify.com/"
 languageCode = "en-us"
 title = "Green Earth"
 theme = "sm-greenearth"
