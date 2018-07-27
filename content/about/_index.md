@@ -5,8 +5,7 @@ seo_description: Green Earth
 creative_image: "images/About-Us1.jpg"
 ---
 
-## ABOUT US
-
+# ABOUT US
 NCS Green Earth Pvt Ltd is a Bio Technology company incorporated in 2009. Three Musketeers came together sharing an ethical bond and with the firm belief that Bio-Technology can boost the sustainability & profitability of Indian Agriculture.
 
 
@@ -20,7 +19,7 @@ With our vision and dedication for innovation and continuous improvisation, our 
 
 ***
 
-## Technology (Research & Development, IPR)
+# Technology (Research & Development, IPR)
 
 The core technology is focused around the action of beneficial microbes which in turn secretes certain enzymes, organic acids & growth hormones. To facilitate this process we master and innovate applied Submerged Fermentation (SMF) & Solid State Fermentation (SSF) as a production technique of biological conversion of complex substrate into simple compounds by various micro-organisms. Technological innovation is focused on effective use of the upstream process for initial formulation and downstream processes for recovery of products in pure state or separation.
 
@@ -32,7 +31,7 @@ Product development and process optimization forms the core goal of the R&D.
 
 ***
 
-## Laboratory Facilities
+# Laboratory Facilities
 
 Scientific work and quality assurance requires strong backup of sophisticated and competent laboratory facility – both man and machine. This is important for both the research team for product development and he production team to ensure that every product manufactured is up to the stringent standards set by Green Earth team.
 
@@ -40,7 +39,7 @@ Our Chemistry, Micro-Biology, Biotechnology & Analytical labs are fully equipped
 
 ***
 
-## Production Facilities
+# Production Facilities
 
 Production facility based at Nagpur, Maharashtra is well equipped with modern equipment including fermenters and downstream equipment for manufacturing liquid, powder, granule and tablet formulation.
 
@@ -52,13 +51,13 @@ Fully automatic Bottle, Pouch and Powder filling facilities ensures that the pro
 
 ***
 
-## Technical Team with Advisory Technical Board
+# Technical Team with Advisory Technical Board
 
 Green Earth technical team requires multi-faculty expertise covering Micro Biology, Bio-Chemistry, Organic Chemistry, Bio Technology, Plant Pathology, Entomology and Environmental Science. Our core technical team and advisors consists of PhD and Masters in their respective fields. They are supported by able technicians from the respective field. Further we also have engagement and tie-ups with eminent institutions to engage in joint research projects.
 
 ***
 
-## Marketing strategy & Verticals
+# Marketing strategy & Verticals
 
 ### Retail Sales
 
