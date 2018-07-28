@@ -8,7 +8,8 @@ slides:
   - image: /images/slide3.jpg
   - image: /images/slide4.jpg
 ---
+We believe the world is moving to **Green Chemistry** driven by **Microbes. **That seems to be the only way to crawl out of the toxic chemical mess we have created around us. We at **NCS Green Earth **has clear focus on applying Green Chemistry to:
 
-NCS Green Earth Pvt Ltd is a Bio Technology company incorporated in 2009. Three Musketeers came together sharing an ethical bond and with the firm belief that Bio-Technology can boost the sustainability & profitability of Indian Agriculture.
+**Agriculture   **\[Soil, Roots, Nutrition, Pest & Diseases],  **Industrial Waste Treatment **[Effluent Treatment, **Bio-Remediation **\[Land remediation, Solid Waste Management etc.] **&** **Home & Industrial Cleaning. **
 
-With the focus on better way of Soil & Fertility enhancement, Nutrition & Stress Management and Pest & Disease management, NCS Crop Science developed an impressive range of products and took it to the market. Excellent results with environmental safety made the demand soar with all kind of farmers. The innovation proved that it’s possible to switch to organic without increasing the cost and compromising on productivity. Providing environmental benefits on top of commercial sense.
+We challenge our-self to create products which remains simple to use, offer excellent price-performance ration and still remain eco-friendly. This runs across all the products and practices followed by us.
