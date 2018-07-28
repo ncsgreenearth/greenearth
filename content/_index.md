@@ -8,8 +8,8 @@ slides:
   - image: /images/slide3.jpg
   - image: /images/slide4.jpg
 ---
-We believe the world is moving to **Green Chemistry** driven by **Microbes. **That seems to be the only way to crawl out of the toxic chemical mess we have created around us. We at **NCS Green Earth **has clear focus on applying Green Chemistry to:
+We believe the world is moving to **Green Chemistry** driven by **Microbes**. That seems to be the only way to crawl out of the toxic chemical mess we have created around us. We at **NCS Green Earth** has clear focus on applying Green Chemistry to:
 
-**Agriculture   **\[Soil, Roots, Nutrition, Pest & Diseases],  **Industrial Waste Treatment **[Effluent Treatment, **Bio-Remediation **\[Land remediation, Solid Waste Management etc.] & **Home & Industrial Cleaning. **
+**Agriculture** [Soil, Roots, Nutrition, Pest & Diseases],  **Industrial Waste Treatment**[Effluent Treatment, **Bio-Remediation** [Land remediation, Solid Waste Management etc.] & **Home & Industrial Cleaning**.
 
-We challenge our-self to create **products** which remains **simple to use**, offer **excellent price-performance **ration and still remain **Eco-friendly**. This runs across all the products and practices followed by us.
+We challenge our-self to create **products** which remains **simple to use**, offer **excellent price-performance** ratio and still remain **Eco-friendly**. This runs across all the products and practices followed by us.
