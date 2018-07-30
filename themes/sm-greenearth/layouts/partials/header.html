@@ -17,7 +17,9 @@
   </head>
   <body class="has-navbar-fixed-top" style="">
     <header>
-      <nav class="navbar is-black is-fixed-top">
+      
+      <nav class="navbar is-fixed-top navbar {{.Site.Data.meta.header_color}}"
+      >
         <div class="container is-fluid" >
           <div class="navbar-brand">
             <a class="navbar-item" href="/">
@@ -63,6 +65,7 @@
           </div>
         </div>
       </nav>
+     
     </header>
     <script>
     document.addEventListener('DOMContentLoaded', function () {
