@@ -114,3 +114,4 @@ collections:
         - {label: Logo, name: logo, widget: image}
         - {label: FB Cover, name: fb_cover, widget: image}
         - {label: Header Color, name: header_color, widget: text}
+        - {label: Footer Color, name: footer_color, widget: text}
