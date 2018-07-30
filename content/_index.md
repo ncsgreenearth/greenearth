@@ -4,7 +4,7 @@ seo_keywords: Green Earth
 seo_description: Green Earth
 slides:
   - image: /images/slide1.jpg
-  - image: /images/slide2.jpg
+  - image: /images/article.jpg
   - image: /images/slide3.jpg
   - image: /images/1112-copy.jpg
   - image: /images/super-soil-structure.jpg
