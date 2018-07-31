@@ -1,21 +1,17 @@
 services:
-  - name: Bio Stimulants
+  - body: 'Green Flush & Green Glow. '
     image: images/bio_stimulants.jpg
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nisi lacus, scelerisque id arcu quis, dapibus tristique nunc.
     link: agriculture/bio_stimulants
-  - name: Crop Advisory
-    image: images/crop_advisory.jpg
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nisi lacus, scelerisque id arcu quis, dapibus tristique nunc.
+    name: Bio Stimulants
+  - image: images/crop_advisory.jpg
     link: agriculture/crop_advisory
-  - name: Plant Nutrition
-    image: images/plant_nutrition.jpg
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nisi lacus, scelerisque id arcu quis, dapibus tristique nunc.
+    name: Crop Advisory
+  - image: images/plant_nutrition.jpg
     link: agriculture/pest_management
-  - name: Pest Management
-    image: images/pest_management.jpg
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nisi lacus, scelerisque id arcu quis, dapibus tristique nunc.
+    name: Plant Nutrition
+  - image: images/pest_management.jpg
     link: agriculture/plant_nutrition
-  - name: Bio-Cleaners
-    image: images/DSOLVE.jpg
-    content: Cleaning anything involves making something else dirty, but anything can get dirty without something else getting clean”   Most cleaning efforts are nothing but “shifting” of problems from ...
+    name: Pest Management
+  - image: images/DSOLVE.jpg
     link: bio_cleaners
+    name: Bio-Cleaners
