@@ -18,7 +18,6 @@ collections:
     - label: "Type"
       name: "type"
       widget: "select"
-      filter: {field: "type", value: "agriculture"}
       options: ["agriculture", "crop_advisory"]
     - label: Header
       name: header

@@ -14,33 +14,33 @@
 {{ partial "agriculture-menu.html" . }}
 <div class="section">
   <div class="container is-fluid">
-  <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
-
-     <thead>
-    <tr>
-        {{ range .Params.header }}
-      <th class="has-text-centered has-text-weight-semibold is-size-5">{{.header_title}}</th>
-  {{ end }}
-    </tr>
-  </thead>
-
-    {{ range .Params.details }}
-  <tbody>
-    <tr>
-      <td class="">
-        <figure class="image is-128x128">
-          <img src="{{(trim .image "/") | absURL }}">
-        </figure>
-      </td>
-      <td class="has-text-centered">{{ .name }}</td>
-      <td class="has-text-centered">{{ .action }}</td>
-      <td>
-        <a class="button is-link is-outlined" href="{{ (trim .profile_file "/" ) | absURL }}"> DOWNLOAD</a>
-      </td>
-    </tr>
-  </tbody>
-    {{end}}
-  </table>
-</div>
+    <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+      <thead>
+        <tr>
+          {{ range .Params.header }}
+          <th class="has-text-centered has-text-weight-semibold is-size-5">{{.header_title}}</th>
+          {{ end }}
+        </tr>
+      </thead>
+      {{ range .Params.details }}
+      <tbody>
+        <tr>
+          <td class="">
+            <span class="table-image">
+            <figure class="image is-62x62">
+              <img src="{{(trim .image "/") | absURL }}">
+            </figure>
+          </span>
+          </td>
+          <td class="has-text-centered">{{ .name }}</td>
+          <td class="has-text-centered">{{ .action }}</td>
+          <td>
+            <a class="button is-link is-outlined" href="{{ (trim .profile_file "/" ) | absURL }}"> DOWNLOAD</a>
+          </td>
+        </tr>
+      </tbody>
+      {{end}}
+    </table>
+  </div>
 </div>
 {{ partial "footer.html" . }}
