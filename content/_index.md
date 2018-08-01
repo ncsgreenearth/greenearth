@@ -2,7 +2,7 @@
 title: NCS Green Earth Pvt. Ltd.
 seo_keywords: Green Earth
 seo_description: Green Earth
-paragrap_title: About Us
+paragrap_title: ''
 slides:
   - image: /images/slide1.jpg
   - image: /images/article.jpg
