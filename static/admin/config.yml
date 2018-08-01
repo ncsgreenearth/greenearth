@@ -22,6 +22,7 @@ collections:
     - label: Header
       name: header
       widget: list
+      filter: {field: "type", value: "agriculture"}
       fields:
         - {label: Header Title, name: header_title, widget: string, required: false}
     - label: Details
