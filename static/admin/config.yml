@@ -23,7 +23,7 @@ collections:
       name: header
       widget: list
       fields:
-        - {label: Name, name: name, widget: string, required: false}
+        - {label: Header Title, name: header_title, widget: string, required: false}
     - label: Details
       name: details
       widget: list
