@@ -16,6 +16,10 @@ collections:
     - {label: Featured Image, name: featured_image, widget: image}
     - {label: Type, name: type, widget: text, required: false}
     - {label: Content, name: body, widget: markdown, required: false}
+    - label: "Type"
+      name: "type"
+      widget: "select"
+      options: ["agriculture", "crop_advisory"]
     - label: Details
       name: details
       widget: list
