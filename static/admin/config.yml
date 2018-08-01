@@ -35,6 +35,7 @@ collections:
         - {label: Seo Title, name: seo_title, widget: string, required: false}
         - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
         - {label: Seo Description, name: seo_description, widget: text, required: false}
+        - {label: Paragrap Title, name: paragrap_title, widget: string, required: false}
         - label: Slides
           name: slides
           widget: list
