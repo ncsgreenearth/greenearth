@@ -103,7 +103,7 @@ collections:
           fields:
             - {label: Name, name: name, widget: string}
             - {label: Image, name: image, widget: image}
-            - {label: Content, name: body, widget: markdown}
+            - {label: Content, name: content, widget: markdown}
             - {label: Link, name: link, widget: string}
 
     - label: "Meta"

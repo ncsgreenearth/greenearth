@@ -1,17 +1,21 @@
 services:
-  - body: 'Green Flush & Green Glow. '
+  - content: 'Green Flush & Green Glow. '
     image: images/bio_stimulants.jpg
     link: agriculture/bio_stimulants
     name: Bio Stimulants
-  - image: images/crop_advisory.jpg
+  - content: 
+    image: images/crop_advisory.jpg
     link: agriculture/crop_advisory
     name: Crop Advisory
-  - image: images/plant_nutrition.jpg
+  - content:
+    image: images/plant_nutrition.jpg
     link: agriculture/pest_management
     name: Plant Nutrition
-  - image: images/pest_management.jpg
+  - content:
+    image: images/pest_management.jpg
     link: agriculture/plant_nutrition
     name: Pest Management
-  - image: images/DSOLVE.jpg
+  - content:
+    image: images/DSOLVE.jpg
     link: bio_cleaners
     name: Bio-Cleaners

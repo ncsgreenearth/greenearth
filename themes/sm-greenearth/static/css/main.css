@@ -123,8 +123,8 @@ h4 {
     font-weight: normal;
    }
 .newslink:hover, .newslink.active {
-    color: hsl(171, 100%, 41%);
-    border-bottom-color: hsl(171, 100%, 41%);
+    color: hsl(204, 86%, 53%);
+    border-bottom-color: hsl(204, 86%, 53%);
  	}
 .newslinksample
  {
@@ -147,12 +147,12 @@ h4 {
     font-weight: normal;
    }
 .studiolink:hover, .studiolink.active {
-    color: hsl(171, 100%, 41%);
-    border-bottom-color: hsl(171, 100%, 41%);
+    color: hsl(204, 86%, 53%);
+    border-bottom-color: hsl(204, 86%, 53%);
  	}
 .tabs a:hover {
-    border-bottom-color: hsl(171, 100%, 41%);
-    color: hsl(171, 100%, 41%);
+    border-bottom-color: hsl(204, 86%, 53%);
+    color: hsl(204, 86%, 53%);
 }
 .tabs a {
     align-items: center;
