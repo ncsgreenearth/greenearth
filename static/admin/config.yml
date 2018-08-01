@@ -76,12 +76,13 @@ collections:
         - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
         - {label: Seo Description, name: seo_description, widget: text, required: false}
         - {label: Paragrap Title, name: paragrap_title, widget: string, required: false}
+        - {label: Content, name: body, widget: markdown}
+        - {label: Product Title, name: product_title, widget: string, required: false}
         - label: Slides
           name: slides
           widget: list
           fields:
             - {label: Image, name: image, widget: image}
-        - {label: Content, name: body, widget: markdown}
 - label: "Data"
   name: "data"
   files:
