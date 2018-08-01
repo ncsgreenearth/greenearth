@@ -15,19 +15,20 @@
 <div class="section">
   <div class="container is-fluid">
   <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+
      <thead>
     <tr>
-      <th class="has-text-centered has-text-weight-semibold">PRODUCT</th>
-      <th class="has-text-centered has-text-weight-semibold">ACTIVE INGREDIENTS</th>
-      <th class="has-text-centered has-text-weight-semibold">ACTION</th>
-      <th class="has-text-centered has-text-weight-semibold">DOWNLOADS</th>
+        {{ range .Params.header }}
+      <th class="has-text-centered has-text-weight-semibold is-size-5">{{.header_title}}</th>
+  {{ end }}
     </tr>
   </thead>
+
     {{ range .Params.details }}
   <tbody>
     <tr>
-      <td class="has-text-centered ">
-        <figure class="image is-96x96">
+      <td class="">
+        <figure class="image is-128x128">
           <img src="{{(trim .image "/") | absURL }}">
         </figure>
       </td>

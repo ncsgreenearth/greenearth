@@ -4,6 +4,11 @@ seo_keywords: Green Earth
 seo_description: Green Earth
 featured_image: images/bio_stimulants.jpg
 type: agriculture
+header:
+  - header_title: Product
+  - header_title: Active Ingredients
+  - header_title: Action
+  - header_title: Downloads
 details:
   - action: Vegetative growth promoter
     image: images/green-flush-300x88.png

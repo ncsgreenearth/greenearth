@@ -4,6 +4,11 @@ seo_keywords: Green Earth
 seo_description: Green Earth
 featured_image: images/pest_management.jpg
 type: agriculture
+header:
+  - header_title: Product
+  - header_title: Active Ingredients
+  - header_title: Action
+  - header_title: Downloads
 details:
   - action: >-
       Army worm, Boll worm, Fruit & shoot borer, DBM, Stem borer, Semilooper &

@@ -4,6 +4,11 @@ seo_keywords: Green Earth
 seo_description: Green Earth
 featured_image: images/plant_nutrition.jpg
 type: "agriculture"
+header:
+  - header_title: Product
+  - header_title: Active Ingredients
+  - header_title: Action
+  - header_title: Downloads
 details:
   - name: >-
       10.42 % Phosphatev

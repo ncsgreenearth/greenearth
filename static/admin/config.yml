@@ -19,6 +19,11 @@ collections:
       name: "type"
       widget: "select"
       options: ["agriculture", "crop_advisory"]
+    - label: Header
+      name: header
+      widget: list
+      fields:
+        - {label: Name, name: name, widget: string, required: false}
     - label: Details
       name: details
       widget: list
