@@ -3,19 +3,16 @@ services:
     image: images/bio_stimulants.jpg
     link: agriculture/bio_stimulants
     name: Bio Stimulants
-  - content: 
+  - content: Green Flush & Green Glow.
     image: images/crop_advisory.jpg
     link: agriculture/crop_advisory
     name: Crop Advisory
-  - content:
-    image: images/plant_nutrition.jpg
+  - image: images/plant_nutrition.jpg
     link: agriculture/pest_management
     name: Plant Nutrition
-  - content:
-    image: images/pest_management.jpg
+  - image: images/pest_management.jpg
     link: agriculture/plant_nutrition
     name: Pest Management
-  - content:
-    image: images/DSOLVE.jpg
+  - image: images/DSOLVE.jpg
     link: bio_cleaners
     name: Bio-Cleaners
