@@ -3,18 +3,7 @@ title: Test
 seo_title: test
 seo_keywords: test
 featured_image: /images/Bitter-Gourd.jpg
-type: |+
-  agriculture
-
-
-
-
-
-
-
-
-
-
+type: "agriculture"
 details:
   - action: fss
     image: /images/Agnivarsha4-300x70.png
