@@ -18,7 +18,7 @@ collections:
     - label: "Type"
       name: "type"
       widget: "select"
-      options: ["agriculture", "crop_advisory","two_column_templete", "three_column_templete", "three_grid_templete"]
+      options: ["agriculture", "crop_advisory","two_column_template", "three_column_template", "three_grid_template"]
     - label: Header
       name: header
       widget: list
