@@ -1,12 +1,17 @@
 {{ partial "header.html" . }}
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOp_b26dWumYiB9Pc3EwrC-FEPP2CkgGk" data-turbolinks-eval="false"></script>
 <div class="flex items-stretch items-start flex-wrap flex-nowrap-l bg-white" style="">
-	<section class="hero is-info">
-		<div class="hero-body">
-			<div class="container">
-				{{ partial "page_title.html" . }}
+	<!-- <section class="hero is-info">
+			<div class="hero-body">
+					<div class="container">
+							{{ partial "page_title.html" . }}
+					</div>
 			</div>
-		</div>
+	</section> -->
+	<section class="">
+		<figure class="image is-2by1">
+			<img  class="" src="{{(trim .Params.featured_image "/") | absURL }}">
+		</figure>
 	</section>
 	<section class="hero">
 		<div class="columns">
@@ -16,6 +21,8 @@
 					<div class="has-text-weight-bold">
 						{{ replace .Params.address "\n" "<br>" | safeHTML }}
 					</div>
+					<div class="has-text-weight-bold">Tel: {{.Params.mobile}}</div>
+					<div class="has-text-weight-bold">Email: <a href="mailto:{{.Params.email}}">{{.Params.email}}</a></div>
 					<div>
 						<form name="contact" netlify>
 							<div class="field">

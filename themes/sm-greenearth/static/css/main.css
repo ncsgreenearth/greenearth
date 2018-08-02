@@ -31,6 +31,10 @@ h3{
 h4 {
     color: red;
 }
+.image.is-2by1{
+
+    padding-top: 23.3333%;
+}
 
 .table-image {
     display: inline-block;
