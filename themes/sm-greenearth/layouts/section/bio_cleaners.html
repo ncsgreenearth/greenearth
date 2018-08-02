@@ -6,14 +6,13 @@
 </section>
 <section class="section" style="">
 	<div class="container is-fluid ">
-		<h1 class="is-size-6 has-text-centered has-text-weight-bold">“Cleaning anything involves making something else dirty,<br>
-		but anything can get dirty without something else getting clean”</h1>
+		<h1 class="is-size-5 has-text-centered has-text-weight-bold">“{{ .Params.content_header}}”</h1>
 		<div class="section">
 			<div class="box">
 				{{ .Content }}
 			</div>
-			<h1 class="is-size-6 has-text-weight-bold">D’Solve comes in the following formulations</h1>
-			<div class="section">
+			<h1 class="is-size-5 has-text-weight-bold">{{ .Params.table_header}}</h1>
+			<div class="">
 				<table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
 					{{ range .Params.formulations }}
 					<thead>

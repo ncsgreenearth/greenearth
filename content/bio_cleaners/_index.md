@@ -3,6 +3,8 @@ title: Bio-Cleaners
 seo_keywords: Green Earth
 seo_description: Green Earth
 featured_image: /images/DSOLVE.jpg
+content_header: "Cleaning anything involves making something else dirty, but anything can get dirty without something else getting clean"
+table_header: D’Solve comes in the following formulations
 formulations:
   - name: Toilet & Bathroom Manager
   - name: Drain Manager
