@@ -3,7 +3,7 @@ title: Crop Advisory
 seo_keywords: Green Earth
 seo_description: Green Earth
 featured_image: images/crop_advisory.jpg
-type: three_grid_templete
+type: crop_advisory
 header: []
 details:
   - image: images/Bitter-Gourd.jpg
