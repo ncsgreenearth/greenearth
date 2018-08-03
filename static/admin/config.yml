@@ -13,7 +13,7 @@ collections:
     - {label: Seo Title, name: seo_title, widget: string, required: false}
     - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
     - {label: Seo Description, name: seo_description, widget: text, required: false}
-    - {label: Featured Image, name: featured_image, widget: image}
+    - {label: Featured Image, name: featured_image, widget: image, required: false}
     - {label: Content, name: body, widget: markdown, required: false}
     - label: "Type"
       name: "type"
@@ -40,8 +40,8 @@ collections:
     - {label: Seo Title, name: seo_title, widget: string, required: false}
     - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
     - {label: Seo Description, name: seo_description, widget: text, required: false}
-    - {label: Featured Image, name: featured_image, widget: image}
-    - {label: Content, name: body, widget: markdown}
+    - {label: Featured Image, name: featured_image, widget: image, required: false}
+    - {label: Content, name: body, widget: markdown, required: false}
 - label: "Bio Cleaners"
   name: "bio cleaners"
   folder: "content/bio_cleaners"
@@ -50,7 +50,7 @@ collections:
     - {label: Seo Title, name: seo_title, widget: string, required: false}
     - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
     - {label: Seo Description, name: seo_description, widget: text, required: false}
-    - {label: Featured Image, name: featured_image, widget: image}
+    - {label: Featured Image, name: featured_image, widget: image, required: false}
     - {label: Content Header, name: content_header, widget: text, required: false}
     - {label: Content, name: body, widget: markdown, required: false}
     - {label: Table Header, name: table_header, widget: text, required: false}
@@ -58,7 +58,7 @@ collections:
       name: formulations
       widget: list
       fields:
-        - {label: Name, name: name, widget: text}
+        - {label: Name, name: name, widget: text, required: false}
 - label: "Contact Page"
   name: "contact"
   folder: "content/contact"
@@ -67,11 +67,11 @@ collections:
     - {label: Seo Title, name: seo_title, widget: string, required: false}
     - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
     - {label: Seo Description, name: seo_description, widget: text, required: false}
-    - {label: Google Map Coordinates, name: google_map_coordinates, widget: string}
-    - {label: Business Name, name: business_name, widget: string}
-    - {label: Address, name: address, widget: text}
-    - {label: Phone No, name: mobile, widget: string}
-    - {label: Email, name: email, widget: string}
+    - {label: Google Map Coordinates, name: google_map_coordinates, widget: string, required: false}
+    - {label: Business Name, name: business_name, widget: string, required: false}
+    - {label: Address, name: address, widget: text, required: false}
+    - {label: Phone No, name: mobile, widget: string, required: false}
+    - {label: Email, name: email, widget: string, required: false}
 
 - label: "Pages"
   name: "pages"
@@ -85,7 +85,7 @@ collections:
         - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
         - {label: Seo Description, name: seo_description, widget: text, required: false}
         - {label: Paragrap Title, name: paragrap_title, widget: string, required: false}
-        - {label: Content, name: body, widget: markdown}
+        - {label: Content, name: body, widget: markdown, required: false}
         - {label: Product Title, name: product_title, widget: string, required: false}
         - label: Slides
           name: slides
@@ -103,10 +103,10 @@ collections:
           name: services
           widget: list
           fields:
-            - {label: Name, name: name, widget: string}
-            - {label: Image, name: image, widget: image}
-            - {label: Content, name: content, widget: markdown}
-            - {label: Link, name: link, widget: string}
+            - {label: Name, name: name, widget: string, required: false}
+            - {label: Image, name: image, widget: image, required: false}
+            - {label: Content, name: content, widget: markdown, required: false}
+            - {label: Link, name: link, widget: string, required: false}
 
     - label: "Meta"
       name: "meta"

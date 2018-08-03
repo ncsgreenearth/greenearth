@@ -27,15 +27,18 @@
         <tr>
           <td class="">
             <span class="table-image">
-            <figure class="image is-62x62">
-              <img src="{{(trim .image "/") | absURL }}">
-            </figure>
-          </span>
+              <figure class="image is-62x62">
+                <img src="{{(trim .image "/") | absURL }}">
+              </figure>
+            </span>
           </td>
           <td class="has-text-centered">{{ .name }}</td>
           <td class="has-text-centered">{{ .action }}</td>
-          <td >
-            <a class="button is-link is-outlined" href="{{ (trim .profile_file "/" ) | absURL }}"> DOWNLOAD</a>
+          <td class="has-text-centered">
+            <a class="button is-info is-rounded" href="{{ (trim .profile_file "/" ) | absURL }}">
+              <span class="icon"><span class="far fa-arrow-alt-circle-down"></span></span>
+              <span class="has-text-weight-semibold">Download</span>
+            </a>
           </td>
         </tr>
       </tbody>
