@@ -35,6 +35,7 @@ collections:
 - label: "About"
   name: "about"
   folder: "content/about"
+  create: true
   fields:
     - {label: Title, name: title, widget: string}
     - {label: Seo Title, name: seo_title, widget: string, required: false}
