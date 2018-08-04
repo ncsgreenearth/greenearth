@@ -3,7 +3,9 @@ title: Bio-Cleaners
 seo_keywords: Green Earth
 seo_description: Green Earth
 featured_image: /images/DSOLVE.jpg
-content_header: "Cleaning anything involves making something else dirty, but anything can get dirty without something else getting clean"
+content_header: >-
+  Cleaning anything involves making something else dirty, but anything can get
+  dirty without something else getting clean
 table_header: D’Solve comes in the following formulations
 formulations:
   - name: Toilet & Bathroom Manager
@@ -20,6 +22,7 @@ formulations:
   - name: Pond Algae Manager
   - name: Grease Trap Manager
   - name: Floor Manager
+  - name: Sample Test
 ---
 
 Most cleaning efforts are nothing but “shifting” of problems from “one location to another” creating mountains of City Waste, badly contaminated water bodies, underground pollution and huge dump yards seeking attention.
