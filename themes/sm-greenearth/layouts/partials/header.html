@@ -40,26 +40,6 @@
               <a class="navbar-item is-size-5" href="/">Home</a>
               <a class="navbar-item is-size-5" href="/about">About Us</a>
               <a class="navbar-item is-size-5" href="/agriculture">Agriculture</a>
-              <!-- <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link is-size-5" href="/agriculture">Agriculture</a>
-                {{/* Get the current page's URL so we can compare it to the list below */}}
-                {{ $currentPageUrl := .URL }}
-                {{/* Get a list of this section's other pages. "RegularPages" excludes the list page    */}}
-                {{ $currentSection := (where .Site.RegularPages "Section" .Section) }}
-                {{/* Get the number of entries of  $currentSection and subtract 1 */}}
-                {{ $i := sub ($currentSection | len) 1 }}
-                {{/* So we can only show this menu if there are one or more other entries  */}}
-                {{ if ge $i 0 }}
-                <div class="navbar-dropdown is-boxed">
-                  {{ range $currentSection }}
-                  <a class="navbar-item is-size-6" href="{{ .URL }}">
-                    {{ .Title }}
-                  </a>
-                  <hr class="navbar-divider">
-                  {{ end }}
-                </div>
-                {{ end }}
-              </div> -->
               <a class="navbar-item is-size-5" href="/bio_cleaners">Bio-Cleaners</a>
               <a class="navbar-item is-size-5" href="/contact">Contact</a>
             </div>
