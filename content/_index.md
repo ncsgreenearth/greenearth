@@ -4,7 +4,7 @@ seo_keywords: Green Earth
 seo_description: Green Earth
 paragrap_title: 'About'
 product_title: 'Our Products'
-link: "/about"
+link: about
 slides:
   - image: /images/slide1.jpg
   - image: /images/article.jpg
