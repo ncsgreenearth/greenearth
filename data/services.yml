@@ -15,5 +15,5 @@ services:
     link: agriculture/plant_nutrition
     name: Pest Management
   - image: images/DSOLVE.jpg
-    link: bio_cleaners
+    link: ''
     name: Bio-Cleaners
