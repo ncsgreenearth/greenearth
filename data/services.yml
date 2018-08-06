@@ -7,7 +7,8 @@ services:
     image: images/crop_advisory.jpg
     link: agriculture/crop_advisory
     name: Crop Advisory
-  - image: images/plant_nutrition.jpg
+  - content: Sample Test
+    image: images/plant_nutrition.jpg
     link: agriculture/pest_management
     name: Plant Nutrition
   - image: images/pest_management.jpg
