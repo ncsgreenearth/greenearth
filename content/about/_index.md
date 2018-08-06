@@ -3,7 +3,7 @@ title: About Us
 seo_keywords: Green Earth
 seo_description: Green Earth
 featured_image: images/About-Us1.jpg
-link: /contact
+link: contact
 ---
 
 # ABOUT US
