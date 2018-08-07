@@ -1,11 +1,4 @@
 {{ partial "header.html" . }}
-<!-- <section class="hero is-primary">
-  <div class="hero-body">
-    <div class="container">
-      {{ partial "page_title.html" . }}
-    </div>
-  </div>
-</section> -->
 <section class="">
   <figure class="image is-3by1">
     <img  class="" src="{{(trim .Params.featured_image "/") | absURL }}">
@@ -14,6 +7,9 @@
 {{ partial "agriculture-menu.html" . }}
 <div class="section">
   <div class="container is-fluid">
+    {{ .Content }}
+  </div>
+  <div class="container is-fluid" style="padding-top: 10px;">
     <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
       <thead>
         <tr>
