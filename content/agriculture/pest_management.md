@@ -21,4 +21,4 @@ details:
     name: 'Plant sourced oil, extract & secondary metabolites'
     profile_file: /images/Miticurb.pdf
 ---
-
+Most cleaning efforts are nothing but “shifting” of problems from “one location to another” creating mountains of City Waste, badly contaminated water bodies, underground pollution and huge dump yards seeking attention.
