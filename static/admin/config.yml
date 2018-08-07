@@ -17,15 +17,18 @@ collections:
     - {label: Content, name: body, widget: markdown, required: false}
     - label: "Type"
       name: "type"
+      required: false
       widget: "select"
       options: ["agriculture", "crop_advisory","two_column_template", "three_column_template", "three_grid_template"]
     - label: Header
       name: header
+      required: false
       widget: list
       fields:
         - {label: Header Title, name: header_title, widget: string, required: false}
     - label: Details
       name: details
+      required: false
       widget: list
       fields:
         - {label: Name, name: name, widget: string, required: false}
