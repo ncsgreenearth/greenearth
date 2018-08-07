@@ -5,9 +5,9 @@ seo_description: Green Earth
 featured_image: images/bio_stimulants.jpg
 type: three_column_template
 header:
+  - header_title: Image
   - header_title: Name
   - header_title: Product
-  - header_title: Image
 details:
   - action: Test
     image: /images/Digout3.-e1503737947897-300x111.png
