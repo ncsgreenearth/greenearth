@@ -47,4 +47,4 @@ details:
     name: Zinc solubilizing bacteria
     profile_file: images/Reap-Z.pdf
 ---
-Hello Sample
+Most cleaning efforts are nothing but “shifting” of problems from “one location to another” creating mountains of City Waste, badly contaminated water bodies, underground pollution and huge dump yards seeking attention.
